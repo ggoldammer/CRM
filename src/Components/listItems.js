@@ -6,9 +6,9 @@ import ListSubheader from '@material-ui/core/ListSubheader';
 import DashboardIcon from '@material-ui/icons/Dashboard';
 import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
 import PeopleIcon from '@material-ui/icons/People';
-import BarChartIcon from '@material-ui/icons/BarChart';
-import LayersIcon from '@material-ui/icons/Layers';
+import CodeIcon from '@material-ui/icons/Code';
 import AssignmentIcon from '@material-ui/icons/Assignment';
+import MailIcon from '@material-ui/icons/MailOutline'
 
 export const mainListItems = (
   <div>
@@ -32,7 +32,7 @@ export const mainListItems = (
     </ListItem>
     <ListItem button>
       <ListItemIcon>
-        <BarChartIcon />
+        <MailIcon />
       </ListItemIcon>
       <ListItemText primary="Tickets" />
     </ListItem>
@@ -50,15 +50,9 @@ export const secondaryListItems = (
     </ListItem>
     <ListItem button>
       <ListItemIcon>
-        <AssignmentIcon />
+        <CodeIcon />
       </ListItemIcon>
       <ListItemText primary="Github Repo" />
-    </ListItem>
-    <ListItem button>
-      <ListItemIcon>
-        <AssignmentIcon />
-      </ListItemIcon>
-      <ListItemText primary="Year-end sale" />
     </ListItem>
   </div>
 );
